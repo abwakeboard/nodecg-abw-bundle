@@ -1,0 +1,54 @@
+{
+    "name": "nodecg-abw-bundle",
+    "version": "0.1.0",
+    "description": "",
+    "homepage": "",
+    "author": {
+        "name": "Bruno Saad",
+        "email": "saadbruno@gmail.com",
+        "url": "https://github.com/abwakeboard/nodecg-abw-bundle"
+    },
+    "files": [
+        "dashboard",
+        "graphics",
+        "extension"
+    ],
+    "keywords": [
+        "",
+        "nodecg-bundle"
+    ],
+    "nodecg": {
+        "compatibleRange": "^2.0.0",
+        "dashboardPanels": [
+            {
+                "name": "example",
+                "title": "Exemplo",
+                "width": 2,
+                "file": "example/example.html",
+                "headerColor": "#525F78"
+            }
+        ],
+        "graphics": [
+            {
+                "file": "index.html",
+                "width": 1920,
+                "height": 1080,
+                "singleInstance": false
+            }
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.5%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "repository": "https://github.com/abwakeboard/nodecg-abw-bundle.git",
+    "license": "MIT"
+}
