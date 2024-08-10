@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Importar do TicketSports</title>
+    <style>
+      #drop-area {
+        border: 2px dashed #ccc;
+        padding: 20px;
+        /* width: 100%; */
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 0.8rem;
+        color: grey;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="drop-area"
+      ondragover="event.preventDefault()"
+      ondrop="handleDrop(event)"
+    >
+      Arraste arquivo CSV do TicketSports aqui, ou clique para selecionar
+      <input type="file" id="file-input" style="display: none" accept=".csv" />
+    </div>
+    <script src="./importar-ticketsports.js"></script>
+  </body>
+</html>

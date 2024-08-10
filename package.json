@@ -21,10 +21,10 @@
         "compatibleRange": "^2.0.0",
         "dashboardPanels": [
             {
-                "name": "example",
-                "title": "Exemplo",
+                "name": "importar-ticketsports",
+                "title": "Importar Atletas",
                 "width": 2,
-                "file": "example/example.html",
+                "file": "importar-ticketsports/importar-ticketsports.html",
                 "headerColor": "#525F78"
             }
         ],
