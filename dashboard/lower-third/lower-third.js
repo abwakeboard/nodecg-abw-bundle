@@ -43,3 +43,8 @@ formDadosManuais.onchange = function(){
     const formJSON = formToJSON(formDadosManuais);
     nodecg.Replicant(`lowerThirdAtleta`).value = formJSON;
 };
+
+animarLowerThird.onclick = function(){
+    nodecg.log.debug(`Animando...`);
+    nodecg.sendMessage(`animarLowerThird`);
+};

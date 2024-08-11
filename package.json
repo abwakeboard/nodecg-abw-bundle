@@ -37,10 +37,22 @@
         ],
         "graphics": [
             {
-                "file": "index.html",
+                "file": "lower-third-atletas/lower-third-atletas.html",
                 "width": 1920,
                 "height": 1080,
                 "singleInstance": false
+            }
+        ],
+        "assetCategories": [
+            {
+                "name": "images",
+                "title": "Imagens",
+                "allowedTypes": [
+                    "jpg",
+                    "jpeg",
+                    "png",
+                    "webp"
+                ]
             }
         ]
     },

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;800&family=Lusitana:wght@400;700&display=swap');
+
+:root {
+    --primaryFont: "Kanit", sans-serif;
+    --primaryColor: #0696d8;
+    --secondaryColor: #015780;
+    --textColor: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--primaryFont);
+    color: var(--textColor);
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+}

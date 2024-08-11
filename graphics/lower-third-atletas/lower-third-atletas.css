@@ -1,0 +1,85 @@
+#container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    position: absolute;
+    bottom: 40px;
+}
+
+#lower-third {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+#lower-third-data {
+    background: var(--primaryColor);
+    min-width: 500px;
+}
+
+#logo {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 70px;
+    margin-right: -24px;
+    z-index: 100;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    padding: 0 15px 0 40px;
+}
+
+#nome {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.segundaLinha {
+    background: var(--secondaryColor);
+    text-transform: uppercase;
+}
+
+.terceiraLinha {
+    background: var(--secondaryColor);
+}
+
+.terceiraLinha div {
+    margin-right: 20px;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.animar {
+    animation-name: animacao;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes animacao {
+    0% {
+      opacity: 0;
+      top: 50px;
+    }
+    10% {
+      opacity: 1;
+      top: 0;
+    }
+    90% {
+      opacity: 1;
+      top: 0;
+    }
+    100% {
+      opacity: 0;
+      top: 50px;
+    }
+  }
