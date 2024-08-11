@@ -36,7 +36,7 @@ function handleFiles(files) {
 }
 
 // atualiza lista na dashboard
-nodecg.Replicant(`atletas`).on(`change`, (newValue, oldValue) => {
+nodecg.Replicant(`listaAtletasTicketSports`).on(`change`, (newValue, oldValue) => {
     if (!newValue) return;
 
     listaAtletas.innerHTML = ``;

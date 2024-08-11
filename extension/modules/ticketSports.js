@@ -18,7 +18,7 @@ function initTicketSports() {
             return a[`Nome completo`].localeCompare(b[`Nome completo`]);
         });
 
-        nodecg.Replicant(`atletas`).value = jsonOrdenado;
+        nodecg.Replicant(`listaAtletasTicketSports`).value = jsonOrdenado;
     });
 }
 

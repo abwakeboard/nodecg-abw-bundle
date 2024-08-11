@@ -26,6 +26,13 @@
                 "width": 2,
                 "file": "importar-ticketsports/importar-ticketsports.html",
                 "headerColor": "#525F78"
+            },
+            {
+                "name": "lower-third",
+                "title": "Lower Third",
+                "width": 2,
+                "file": "lower-third/lower-third.html",
+                "headerColor": "#525F78"
             }
         ],
         "graphics": [
