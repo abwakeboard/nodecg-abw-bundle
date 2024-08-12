@@ -1,11 +1,6 @@
 function formToJSON(formElement) {
-
     const formData = new FormData(formElement);
-    const formJSON = {};
-    formData.forEach((value, key) => {
-        formJSON[key] = value;
-    });
-
+    const formJSON = Object.fromEntries(formData.entries())
     return formJSON;
 }
 
